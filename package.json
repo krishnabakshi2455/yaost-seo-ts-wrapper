@@ -1,0 +1,25 @@
+{
+  "name": "yaost-seo-ts-wrapper",
+  "version": "1.0.0",
+  "description": "A TypeScript wrapper for Yoast SEO text analysis.",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --dts"
+  },
+  "keywords": [
+    "seo",
+    "yoast",
+    "analysis",
+    "typescript"
+  ],
+  "dependencies": {
+    "yoastseo": "^3.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.3"
+  }
+}
